@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advisors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="main-section">
+        <div class="advisors">
+            <div class="advisor-box" id="beauty-advisor" data-tab="beauty">
+                <button class="tab-button" data-tab="beauty">Beauty Advisor</button>
+                <div class="tab-content" id="beauty">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    <button type="button" class="btn">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>            
+            </div>
+            <div class="advisor-box" id="health-advisor" data-tab="health">
+                <button class="tab-button" data-tab="health">Health Advisor</button>
+                <div class="tab-content" id="health">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    <button type="button" class="btn">Read More <i class="fas fa-arrow-right"></i></button>        
+                </div>
+            </div>
+            <div class="advisor-box" id="industrial-advisor" data-tab="industrial">
+                <button class="tab-button" data-tab="industrial">Industrial Advisor</button>
+                <div class="tab-content" id="industrial">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    <button type="button" class="btn">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container beauty-advisor active">
+            <header class="header active">
+                <img src="img/Logo.png" alt="">
+                <h1>Beauty Advisor</h1>
+                <div class="icons">
+                    <img src="img/Underline.png" alt="">
+                    <img src="img/X.png" alt="">
+                </div>
+            </header>
+            <main class="main-content">
+                <section class="intro active">
+                    <p>Let me show you our top product categories.</p>
+                </section>
+                <section class="product-categories active">
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Discover a wide range of hair care and styling products that will help you achieve the desired look with ease.</p>
+                        <button class="category-button">Hair Care</button>
+                    </div>
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Explore a comprehensive collection of essential face and body care products to nourish and care for your skin.</p>
+                        <button class="category-button">Face & Body Care</button>
+                    </div>
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <button class="category-button">Varnish</button>
+                    </div>
+                </section>
+                <section class="questions active">
+                    <div class="question-content">
+                        <img src="img/Frame 67.png" alt="">
+                        <p>Please choose one or ask me a question about our products.</p>
+                    </div>                    
+                    <div class="question-buttons">
+                        <button class="question-button">I am looking for shampoo for my damaged hair</button>
+                        <button class="question-button">I want a nail base coat</button>
+                        <button class="question-button">I need moisturizer for oily skin</button>
+                    </div>
+                </section>
+                <section class="message-input active">
+                    <input type="text" placeholder="Message...">
+                </section>
+            </main>
+        </div>
+    
+        <div class="container health-advisor">
+            <header class="header">
+                <img src="img/Logo.png" alt="">
+                <h1>Health Advisor</h1>
+                <div class="icons">
+                    <img src="img/Underline.png" alt="">
+                    <img src="img/X.png" alt="">
+                </div>
+            </header>
+            <main class="main-content">
+                <section class="intro">
+                    <p>Here are our top product categories:</p>
+                </section>
+                <section class="product-categories">
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="category-button">Herbal Supplements</button>
+                    </div>
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="category-button">Vitamins</button>
+                    </div>
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="category-button">Iron</button>
+                    </div>
+                </section>
+                <section class="questions">
+                    <div class="question-content">
+                        <img src="img/Frame 69.png" alt="">
+                        <p>Feel free to pick one or ask anything about our products.</p>
+                    </div>
+                    <div class="question-buttons">
+                        <button class="question-button">I need a supplement to improve my skin</button>
+                        <button class="question-button">I want to buy a multivitamin</button>
+                        <button class="question-button">I’m looking for a probiotic</button>
+                    </div>
+                </section>
+                <section class="message-input">
+                    <input type="text" placeholder="Message...">
+                </section>
+            </main>
+        </div>
+        
+        <div class="container industrial-advisor">
+            <header class="header">
+                <img src="img/Logo.png" alt="">
+                <h1>Industrial Advisor</h1>
+                <div class="icons">
+                    <img src="img/Underline.png" alt="">
+                    <img src="img/X.png" alt="">
+                </div>
+            </header>
+            <main class="main-content">
+                <section class="intro">
+                    <p>Here’s a look at our most popular categories:</p>
+                </section>
+                <section class="product-categories">
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="category-button">Hair Care</button>
+                    </div>
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="category-button">Face & Body Care</button>
+                    </div>
+                    <div class="category-card">
+                        <div class="image-placeholder"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="category-button">Varnish</button>
+                    </div>
+                </section>
+                <section class="questions">
+                    <div class="question-content">
+                        <img src="img/Frame 68.png" alt="">
+                        <p>Pick whichever you like, or let me know if you have any questions.</p>
+                    </div>
+                    <div class="question-buttons">
+                        <button class="question-button">Do you have optoelectronic switches?</button>
+                        <button class="question-button">Do you offer temperature calibration services?</button>
+                        <button class="question-button">What kinds of float switches do you sell?</button>
+                    </div>
+                </section>
+                <section class="message-input">
+                    <input type="text" placeholder="Message...">
+                </section>
+            </main>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
